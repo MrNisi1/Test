@@ -31,7 +31,7 @@ def chk():
   id = "|".join(uuid) 
   print("\n\n\x1b[37;1m  YOUR ID : "+id) 
   try: 
-    httpCaht = requests.get("https://github.com/MrNisi1/Test/blob/main/bc.text").text
+    httpCaht = requests.get("https://github.com/MrNisi1/Test/tree/main").text
     if id in httpCaht: 
       print("\033[92m  WELCOME PAID USER ENJOY. .......\033[97m") 
       msg = str(os.geteuid()) 
