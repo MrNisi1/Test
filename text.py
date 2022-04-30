@@ -1141,4 +1141,4 @@ def n_s():
 
 
 if __name__ == '__main__':
-    chk()
+    login()
